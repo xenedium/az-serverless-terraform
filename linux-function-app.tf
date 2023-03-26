@@ -7,11 +7,7 @@ resource "azurerm_linux_function_app" "az-serverless-terraform" {
   service_plan_id            = azurerm_service_plan.az-serverless-terraform.id
   site_config {
     application_stack {
-      docker {
-        registry_url = var.registry_url
-        image_name   = var.image_name
-        image_tag    = var.image_tag
-      }
+      node_version = 18
     }
   }
 }
