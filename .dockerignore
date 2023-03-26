@@ -1,0 +1,10 @@
+local.settings.json
+.git
+.vscode
+dist
+.terraform
+node_modules
+*.tf
+*.tfvars
+*.tfstate
+.terraform.lock.hcl
