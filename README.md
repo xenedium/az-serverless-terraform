@@ -1,5 +1,5 @@
 # az-serverless-terraform
-Testing IaC using Terraform with Azure Serverless Functions
+Testing CI/CD with GIthub Actions & IaC with Terraform for Azure Serverless Functions
 
 
 ```bash
